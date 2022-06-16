@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Product Landing Page Project for freeCodeCamp" />
+	<meta name="author" content="Joseph A. Sidwa" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+	<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Shiny Stuff</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+		  <img
+            id="header-img"
+            src="https://seeklogo.com/images/S/shiny_stamp-logo-382CC7ADD1-seeklogo.com.png"
+			alt=""
+            loading="lazy"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#section-why">Why</a></li>
+            <li><a class="nav-link" href="#section-what">What</a></li>
+            <li><a class="nav-link" href="#section-how-much">How Much</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container"></div>
+      <section id="form-section">
+	    <h2>Let us tell you more.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address."
+			required
+          />
+          <input
+		    class="btn"
+            id="submit"
+            type="submit"
+            value="Email Me!"
+          />
+        </form>
+      </section>
+	  <div class="container">
+        <section id="section-why">
+		  <div class="grid">
+		    <div class="icon"><i class="fa fa-3x fa-gem"></i></div>
+		    <div class="desc">
+		      <h2>Shiny!</h2>
+              <p>Life got dull? Well, have we got something shiny for you!</p>
+			</div>
+		  </div>
+		  <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-gifts"></i></div>
+            <div class="desc">
+              <h2>Stuff!</h2>
+              <p>You like to buy stuff, you say? Good! We have stuff to sell you!</p>
+            </div>
+          </div>
+		  <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-question" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>What do I do?</h2>
+              <p>You want shiny stuff right now? Check out some of the products available at the bottom of this page. Don't forget to sign up with your email to get a catalog of our complete product line.</p>
+            </div>
+          </div>
+        </section>
+        <section id="section-what">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/vXckXmLMwoQ"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+		<section id="section-how-much">
+          <div class="product" id="tenor">
+            <div class="level">Free Game App</div>
+            <h2>$0</h2>
+            <ol>
+              <li>No cost to play.</li>
+              <li>Full game. Not a demo.</li>
+              <li>Community supported.</li>
+              <li>Contains ads.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">No-Ad Game App</div>
+            <h2>$3.50</h2>
+            <ol>
+              <li>Everything in the free app.</li>
+			  <li>One-time purchase.</li>
+			  <li>Lifetime upgrades.</li>
+			  <li>No ads. Ever.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Premium Game App</div>
+            <h2>$9.95/month</h2>
+            <ol>
+              <li>The same great game.</li>
+              <li>Still no ads...</li>
+              <li>Daily loot drops!</li>
+              <li>Exclusive avatars!</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+		<footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2022, Shiny Stuff</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
